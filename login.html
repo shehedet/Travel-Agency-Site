@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">TourBuzz</div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="tour_book.html">Create Tour</a></li>
+            <li class="dropdown">
+                <a href="profile_view.html">User</a>
+                <ul class="dropdown-content" id="user-options">
+
+                </ul>
+            </li>
+            <li><a href="contact.html">Guides</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="profile-container">
+            <h2>Create Account</h2>
+            <form id="profile-form">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="contact-number">Contact Number</label>
+                <input type="tel" id="contact-number" name="contact-number" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Set Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+    </main>
+   
+    
+
+</body>
+</html>
