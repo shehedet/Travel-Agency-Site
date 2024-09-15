@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../css/profile_view.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">TourBuzz</div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="tour_book.html">Create Tour</a></li>
+            <li class="dropdown">
+                <a href="#">User</a>
+                <ul class="dropdown-content" id="user-options">
+
+                </ul>
+            </li>
+            <li><a href="contact.html">Guides</a></li>
+        </ul>
+    </nav>
+
+<main>
+    <div class="profile-container">
+        <form id="profile-form">
+            <div class="profile-photo-section">
+                <img id="profile-photo-preview" src="../resources/profilepicture.jpg" alt="Profile Photo">
+                <label for="profile-photo-upload" class="upload-button">Change Photo</label>
+                <input type="file" id="profile-photo-upload" name="profile-photo" accept="image/*" style="display: none;">
+            </div>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+            
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+            
+            <label for="contact-number">Contact Number</label>
+            <input type="tel" id="contact-number" name="contact-number" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date-of-birth">Date of Birth</label>
+            <input type="date" id="date-of-birth" name="date-of-birth" required>
+            
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required>
+            <div class="flex justify-between">
+                <div >
+                    <a class="btn bg-red-600 text-white">Delete Profile</a>
+                </div>    
+                <div>
+                    <a class="btn bg-green-600 text-white">Save</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+<script src="../javascript/profile_view.js"></script>   
+</body>
+</html>
