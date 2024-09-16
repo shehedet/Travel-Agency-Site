@@ -46,7 +46,6 @@ body {
     padding: 8px 16px;
     border-radius: 10px; 
     transition: background-color 0.3s ease;
-    font-size: 20px;
 }
 
 .nav-links a:hover {
