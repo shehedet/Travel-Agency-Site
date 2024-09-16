@@ -19,7 +19,6 @@ body {
     width: 100%;
     top: 0;
     z-index: 1000; 
-    height: 100px;
 }
 
 .nav-logo {
@@ -27,7 +26,6 @@ body {
     font-style: italic;
     font-size: 35px;
     font-weight: bold;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -97,7 +95,6 @@ body {
 
 
 
-
 main{
     background-color: white;
 }
@@ -109,7 +106,7 @@ main{
 .profile-container {
     max-width: 600px;
     margin: 50px auto;
-    margin-top:100px;
+    margin-top:69px;
     padding: 20px;
     border: 1.2px solid black;
     border-radius: 8px;
